@@ -27,7 +27,7 @@ A content-based book recommendation system built using K-Nearest Neighbors (KNN)
 ✅ Uses cosine similarity to find similar books
 ✅ Returns top 5 book recommendations with distances
 ✅ Passed all freeCodeCamp test requirements
-📓 File: book-recommender.ipynb
+📓 File: fcc_book_recommendation_knn.ipynb
 
 🚀 Technologies Used
 Python 3
