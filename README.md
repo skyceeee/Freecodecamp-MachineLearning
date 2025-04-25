@@ -1,33 +1,45 @@
-# 🧠 FreeCodeCamp - Machine Learning with Python Projects
+🧠 FreeCodeCamp - Machine Learning with Python Projects
+This repository contains solutions to the required projects from the freeCodeCamp Machine Learning with Python Certification.
+Each project is organized in its own folder or notebook.
 
-This repository contains solutions to the required projects from the [freeCodeCamp Machine Learning with Python Certification](https://www.freecodecamp.org/learn/machine-learning-with-python/). Each project is organized in its own folder.
+📁 Projects
+🎮 Rock, Paper, Scissors AI Bot
+A Python bot that learns and adapts to beat rule-based opponents in Rock-Paper-Scissors with at least 60% accuracy using pattern recognition.
 
----
+✅ Tracks opponent move patterns
+✅ Predicts next move
+✅ Beats 4 different bots with >60% win rate
+✅ Challenge passed (tested with play() and test_module.py)
+📓 File: RPS.py, main.py
 
-## 📁 Projects
+🐱🐶 Cats vs Dogs - Image Classifier (Coming Soon)
+A convolutional neural network (CNN) model built with TensorFlow/Keras to classify cat and dog images with at least 63% accuracy (bonus for >70%).
 
-### 🎮 [Rock, Paper, Scissors AI Bot](rock-paper-scissors/)
-> A Python bot that learns to beat rule-based opponents in rock-paper-scissors with at least 60% accuracy using pattern recognition.
+🔄 Currently in progress
+📂 Notebook uploaded
+🧪 Model training pending
+📓 File: cats-vs-dogs/fcc_cat_dog.ipynb
 
-- ✅ Tracks opponent move patterns
-- ✅ Predicts next move
-- ✅ Achieves >60% win rate against 4 different bots
+📚 Book Recommendation Engine (KNN)
+A content-based book recommendation system built using K-Nearest Neighbors (KNN) on the Book-Crossings dataset.
 
----
+✅ Filters low-interaction users and books
+✅ Uses cosine similarity to find similar books
+✅ Returns top 5 book recommendations with distances
+✅ Passed all freeCodeCamp test requirements
+📓 File: book-recommender.ipynb
 
-### 🐱🐶 [Cat vs Dog Image Classifier (Coming Soon)](cats-vs-dogs/)
-> A CNN image classifier to distinguish between cats and dogs using TensorFlow and Keras.
+🚀 Technologies Used
+Python 3
 
-- ⏳ In progress
-- 📓 Notebook uploaded, model training pending
+Pandas / NumPy / Matplotlib
 
----
+Scikit-learn
 
-## 🚀 Technologies Used
+TensorFlow / Keras
 
-- Python 3
-- TensorFlow / Keras
-- Google Colab
-- Git & GitHub
-- Matplotlib / NumPy / Pandas
+Google Colaboratory
+
+Git & GitHub
+
 
