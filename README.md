@@ -1,89 +1,68 @@
-📚 FreeCodeCamp - Machine Learning with Python Projects
-
+🧠 FreeCodeCamp - Machine Learning with Python Projects
 This repository contains solutions to the required projects from the freeCodeCamp Machine Learning with Python Certification.
 
 Each project is organized in its own folder or notebook.
 
-🏢 Projects
-
+📁 Projects
 🎮 Rock, Paper, Scissors AI Bot
-
 A Python bot that learns and adapts to beat rule-based opponents in Rock-Paper-Scissors with at least 60% accuracy using pattern recognition.
 
 ✅ Tracks opponent move patterns
-
 ✅ Predicts next move
-
 ✅ Beats 4 different bots with >60% win rate
-
 ✅ Challenge passed (tested with play() and test_module.py)
 
 File: rps_project/rps.py, rps_project/main.py
 
 🐱🐶 Cats vs Dogs - Image Classifier
-
 A convolutional neural network (CNN) model built with TensorFlow/Keras to classify cat and dog images with at least 63% accuracy (bonus for >70%).
 
 🔄 Currently in progress
+📓 Notebook uploaded
 
-📁 Notebook uploaded
-
-⚛️ Model training completed
-
-File: cats_vs_dogs_project/cats_vs_dogs.ipynb
+File: cats_vs_dogs/cats_vs_dogs_classifier.ipynb
 
 📚 Book Recommendation Engine (KNN)
-
 A content-based book recommendation system built using K-Nearest Neighbors (KNN) on the Book-Crossings dataset.
 
 ✅ Filters low-interaction users and books
-
 ✅ Uses cosine similarity to find similar books
-
 ✅ Returns top 5 book recommendations with distances
-
 ✅ Passed all freeCodeCamp test requirements
 
-File: book_recommendation_project/fcc_book_recommendation_knn.ipynb
+File: book_recommendation_engine_knn.ipynb
 
-💲 Linear Regression Health Costs Calculator
+💸 Linear Regression Health Costs Calculator
+A regression model to predict individual healthcare costs based on personal attributes using TensorFlow/Keras.
 
-A regression model to predict healthcare expenses based on user features like age, BMI, smoking status, etc.
+✅ Encodes categorical data numerically
+✅ Scales numerical features
+✅ Achieves MAE (Mean Absolute Error) < $3500
+✅ Passed all freeCodeCamp test requirements
 
-✅ Applied feature scaling
+File: linear_regression_health_costs.ipynb
 
-✅ Built a dense neural network using Keras
+✉️ Neural Network SMS Text Classifier
+A binary classification model that classifies SMS messages as "ham" (normal) or "spam" (advertisement).
 
-✅ Achieved Mean Absolute Error (MAE) under $3500
+✅ Preprocessing with tokenization and padding
+✅ Embedding layer and dense layers
+✅ Predicts messages correctly (passes all test messages)
+✅ Passed all freeCodeCamp test requirements
 
-File: health_costs_project/fcc_regression_health_costs.ipynb
+File: fcc_sms_text_classification.ipynb
 
-📢 Neural Network SMS Text Classifier
-
-A simple neural network model that classifies SMS messages as "ham" or "spam".
-
-✅ Preprocessed text data (padding, tokenizing)
-
-✅ Built a binary classifier using embedding and dense layers
-
-✅ Achieved >98% validation accuracy
-
-✅ Passed freeCodeCamp test predictions
-
-File: sms_text_classification_project/fcc_sms_text_classification.ipynb
-
-✨ Technologies Used
-
+🚀 Technologies Used
 Python 3
 
-TensorFlow / Keras
+Pandas / NumPy / Matplotlib
 
 Scikit-learn
 
-Pandas / NumPy / Matplotlib
+TensorFlow / Keras
 
 Google Colaboratory
 
 Git & GitHub
 
-Thank you for checking out the projects! 📚 Feel free to open an issue if you find something interesting to discuss or improve.
+İstersen sana bir de hazır .md dosyası olarak da verebilirim, direkt GitHub'a yükleyebilmen için. İster misin? 📂🚀
