@@ -1,3 +1,5 @@
+
+#It would be better to use it as .ipynb
 # -*- coding: utf-8 -*-
 """fcc_sms_text_classification.ipynb
 
