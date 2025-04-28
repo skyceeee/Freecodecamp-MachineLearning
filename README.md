@@ -1,13 +1,14 @@
-🌈 FreeCodeCamp - Machine Learning with Python Projects
+📚 FreeCodeCamp - Machine Learning with Python Projects
 
-This repository contains solutions to the 5 required projects from the freeCodeCamp Machine Learning with Python Certification.
-Each project is organized clearly in its own folder or notebook.
+This repository contains solutions to the required projects from the freeCodeCamp Machine Learning with Python Certification.
 
-📁 Projects
+Each project is organized in its own folder or notebook.
 
-🌊 Rock, Paper, Scissors AI Bot
+🏢 Projects
 
-A Python bot that learns and adapts to beat rule-based opponents in Rock-Paper-Scissors with at least 60% accuracy.
+🎮 Rock, Paper, Scissors AI Bot
+
+A Python bot that learns and adapts to beat rule-based opponents in Rock-Paper-Scissors with at least 60% accuracy using pattern recognition.
 
 ✅ Tracks opponent move patterns
 
@@ -17,21 +18,21 @@ A Python bot that learns and adapts to beat rule-based opponents in Rock-Paper-S
 
 ✅ Challenge passed (tested with play() and test_module.py)
 
-📂 File: RPS.py, main.py
+File: rps_project/rps.py, rps_project/main.py
 
 🐱🐶 Cats vs Dogs - Image Classifier
 
-A Convolutional Neural Network (CNN) model built with TensorFlow/Keras to classify cat and dog images.
+A convolutional neural network (CNN) model built with TensorFlow/Keras to classify cat and dog images with at least 63% accuracy (bonus for >70%).
 
-✅ Model achieves >63% accuracy (bonus: >70%)
+🔄 Currently in progress
 
-✅ Applied data augmentation and dropout to reduce overfitting
+📁 Notebook uploaded
 
-✅ Challenge passed
+⚛️ Model training completed
 
-📂 File: cats-vs-dogs/fcc_cat_dog.ipynb
+File: cats_vs_dogs_project/cats_vs_dogs.ipynb
 
-📘 Book Recommendation Engine (KNN)
+📚 Book Recommendation Engine (KNN)
 
 A content-based book recommendation system built using K-Nearest Neighbors (KNN) on the Book-Crossings dataset.
 
@@ -41,37 +42,37 @@ A content-based book recommendation system built using K-Nearest Neighbors (KNN)
 
 ✅ Returns top 5 book recommendations with distances
 
-✅ Challenge passed
+✅ Passed all freeCodeCamp test requirements
 
-📂 File: fcc_book_recommendation_knn.ipynb
+File: book_recommendation_project/fcc_book_recommendation_knn.ipynb
 
-📈 Linear Regression Health Costs Calculator
+💲 Linear Regression Health Costs Calculator
 
-A regression model to predict healthcare costs based on patient data.
+A regression model to predict healthcare expenses based on user features like age, BMI, smoking status, etc.
 
-✅ Scales numerical and categorical features appropriately
+✅ Applied feature scaling
 
-✅ Model achieves Mean Absolute Error (MAE) < 3500
+✅ Built a dense neural network using Keras
 
-✅ Challenge passed
+✅ Achieved Mean Absolute Error (MAE) under $3500
 
-📂 File: fcc_linear_regression_health_costs.ipynb
+File: health_costs_project/fcc_regression_health_costs.ipynb
 
-📬 Neural Network SMS Text Classifier
+📢 Neural Network SMS Text Classifier
 
-A binary classification model that classifies SMS messages as "ham" (not spam) or "spam".
+A simple neural network model that classifies SMS messages as "ham" or "spam".
 
-✅ Tokenized and padded text sequences
+✅ Preprocessed text data (padding, tokenizing)
 
-✅ Built a neural network with an Embedding layer
+✅ Built a binary classifier using embedding and dense layers
 
-✅ Model achieves >98% validation accuracy
+✅ Achieved >98% validation accuracy
 
-✅ Challenge passed
+✅ Passed freeCodeCamp test predictions
 
-📂 File: fcc_sms_text_classification.ipynb
+File: sms_text_classification_project/fcc_sms_text_classification.ipynb
 
-🚀 Technologies Used
+✨ Technologies Used
 
 Python 3
 
@@ -79,16 +80,10 @@ TensorFlow / Keras
 
 Scikit-learn
 
-NumPy / Pandas / Matplotlib
+Pandas / NumPy / Matplotlib
 
 Google Colaboratory
 
 Git & GitHub
 
-📅 Timeline
-
-All projects were completed between April 2025 - May 2025.
-
-🎉 Certification Progress
-
-☑️ All Machine Learning with Python Certification projects successfully completed and submitted.
+Thank you for checking out the projects! 📚 Feel free to open an issue if you find something interesting to discuss or improve.
