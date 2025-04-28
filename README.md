@@ -1,97 +1,92 @@
-🧠 FreeCodeCamp - Machine Learning with Python Projects
+# 🧠 FreeCodeCamp - Machine Learning with Python Projects
+
 This repository contains solutions to the required projects from the freeCodeCamp Machine Learning with Python Certification.
 
 Each project is organized in its own folder or notebook.
 
-📁 Projects
-🎮 Rock, Paper, Scissors AI Bot
-A Python bot that learns and adapts to beat rule-based opponents in Rock-Paper-Scissors with at least 60% accuracy using pattern recognition.
+---
 
-Highlights:
+# 📁 Projects
 
-✅ Tracks opponent move patterns
+## 🎮 Rock, Paper, Scissors - AI Bot
 
-✅ Predicts next move
+This project is part of the freeCodeCamp Machine Learning with Python curriculum.  
+The goal is to build an AI bot that can play rock-paper-scissors and win at least **60%** of games against multiple predefined opponents.
 
-✅ Beats 4 different bots with >60% win rate
+### 🚀 Project Overview
+- ✅ Tracks opponent move patterns
+- ✅ Predicts next move
+- ✅ Beats 4 different bots with >60% win rate
+- ✅ Challenge passed (tested with `play()` and `test_module.py`)
 
-✅ Challenge passed (tested with play() and test_module.py)
+📂 **Files:** `rps_project/rps.py`, `rps_project/main.py`
 
-Files:
-rps_project/rps.py, rps_project/main.py
+---
 
-🐱🐶 Cats vs Dogs - Image Classifier
-A convolutional neural network (CNN) model built with TensorFlow/Keras to classify cat and dog images with at least 63% accuracy (bonus for >70%).
+## 🐱🐶 Cats vs Dogs - Image Classifier
 
-Progress:
+This project builds a CNN (Convolutional Neural Network) model using TensorFlow/Keras to classify cat and dog images with at least **63% accuracy** (bonus for >70%).
 
-🔄 Currently in progress
+### 🚀 Project Overview
+- 🔄 Currently in progress
+- 📓 Notebook uploaded
+- 🎯 Model training pending
 
-📓 Notebook uploaded
+📂 **Files:** `cats_vs_dogs/cats_vs_dogs_classifier.ipynb`
 
-File:
-cats_vs_dogs/cats_vs_dogs_classifier.ipynb
+---
 
-📚 Book Recommendation Engine (KNN)
-A content-based book recommendation system built using K-Nearest Neighbors (KNN) on the Book-Crossings dataset.
+## 📚 Book Recommendation Engine (KNN)
 
-Highlights:
+This project develops a book recommendation system using the K-Nearest Neighbors (KNN) algorithm on the Book-Crossings dataset.
 
-✅ Filters low-interaction users and books
+### 🚀 Project Overview
+- ✅ Filters low-interaction users and books
+- ✅ Uses cosine similarity to find similar books
+- ✅ Returns top 5 book recommendations
+- ✅ Passed all freeCodeCamp test requirements
 
-✅ Uses cosine similarity to find similar books
+📂 **Files:** `book_recommendation_engine_knn.ipynb`
 
-✅ Returns top 5 book recommendations
+---
 
-✅ Passed all freeCodeCamp test requirements
+## 💸 Linear Regression Health Costs Calculator
 
-File:
-book_recommendation_engine_knn.ipynb
+This project trains a regression model to predict healthcare costs based on personal data.
 
-💸 Linear Regression Health Costs Calculator
-A regression model to predict individual healthcare costs based on personal attributes using TensorFlow/Keras.
+### 🚀 Project Overview
+- ✅ Encodes categorical data numerically
+- ✅ Scales numerical features
+- ✅ Achieves Mean Absolute Error (MAE) < $3500
+- ✅ Passed all freeCodeCamp test requirements
 
-Highlights:
+📂 **Files:** `linear_regression_health_costs.ipynb`
 
-✅ Encodes categorical data numerically
+---
 
-✅ Scales numerical features
+## ✉️ Neural Network SMS Text Classifier
 
-✅ Achieves MAE (Mean Absolute Error) < $3500
+This project classifies SMS messages as either "ham" (normal) or "spam" (advertisement) using a simple neural network.
 
-✅ Passed all freeCodeCamp test requirements
+### 🚀 Project Overview
+- ✅ Tokenization and padding
+- ✅ Embedding and Dense layers
+- ✅ High validation accuracy
+- ✅ Passed all freeCodeCamp test requirements
 
-File:
-linear_regression_health_costs.ipynb
+📂 **Files:** `fcc_sms_text_classification.ipynb`
 
-✉️ Neural Network SMS Text Classifier
-A binary classification model that classifies SMS messages as "ham" (normal) or "spam" (advertisement).
+---
 
-Highlights:
+# 🛠️ Technologies Used
 
-✅ Preprocessing with tokenization and padding
+- Python 3
+- TensorFlow / Keras
+- Pandas / NumPy / Matplotlib
+- Scikit-learn
+- Google Colaboratory
+- Git & GitHub
 
-✅ Embedding layer and dense layers
+---
 
-✅ Predicts messages correctly
-
-✅ Passed all freeCodeCamp test requirements
-
-File:
-fcc_sms_text_classification.ipynb
-
-🚀 Technologies Used
-Python 3
-
-Pandas / NumPy / Matplotlib
-
-Scikit-learn
-
-TensorFlow / Keras
-
-Google Colaboratory
-
-Git & GitHub
-
-✨ This repository reflects real-world ML workflows and project structures, completed as part of the freeCodeCamp Machine Learning with Python certification.
-
+> 🌟 This repository reflects real-world ML workflows and project structures completed as part of the freeCodeCamp Machine Learning with Python Certification.
